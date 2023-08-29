@@ -11,7 +11,7 @@
       lastModifiedDate = self.lastModifiedDate or self.lastModified or "19700101";
 
       # Generate a user-friendly version number.
-      version = "0.10.0";
+      version = "0.13.0";
 
       # System types to support.
       supportedSystems = [ "x86_64-linux" ];
@@ -37,7 +37,7 @@
 
             src = fetchurl {
               url = "https://release.ariga.io/atlas/atlas-linux-amd64-v${version}";
-              sha256 = "sha256-B0JxxSdy7rU22Wzkp7WTanx4NsoAqDOk9cCI7HLdJ80";
+              sha256 = "sha256-bp8br7GW53dPt7MZnZJ8zhhGA9x5w8vKud2d7dl39CQ";
             };
 
             nativeBuildInputs = [
